@@ -6,7 +6,7 @@ Good. So, to start, mute, kick and ban are commands that work perfectly without 
 
 Now, [warnings](./warnings.md) are the big deal. Sure, they sound pretty simple. But they require Moderator Role (see [saltrole](/saltrole.md)) to be used OR permission node `global.warn`.
 
-Once Moderator Role is set up, or people have `global.warn`, then we can get started. The true warning configuration. It's the command [`+setwarns`](./setwarns.md). It's pretty much simple: You can set a limit, and a punishment for reaching the limit. With no configuration of warns, any warnings aren't stored internally and therefore the command [`+clearwarns`](./warnings.md) does nothing. If you set a limit, however, they will be stored, and you can clear their warns with that command.
+Once Moderator and Administrator roles are set up, or people have `global.warn`, then we can get started. The true warning configuration. It's the command [`+setwarns`](./setwarns.md). It's pretty much simple: You can set a limit, and a punishment for reaching the limit. With no configuration of warns, any warnings aren't stored internally and therefore the command [`+clearwarns`](./warnings.md) does nothing. If you set a limit, however, they will be stored, and you can clear their warns with that command.
 
 ### How to use `+setwarns`?
 It's pretty simple. Let me provide you with examples.

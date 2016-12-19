@@ -10,3 +10,8 @@ saltrole: {
 ```
 ## +saltrole {type} {name}
 Sets a role to be the saltrole of the given type. So far valid types are `moderator` for moderator roles and `administrator` for administrator roles. The name is case insensitive.
+## Permission Nodes
+The `moderator` role grants the following permission nodes:
+```js
+
+```
