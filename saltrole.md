@@ -2,7 +2,7 @@
 Sets moderator and administrator roles for Salt.
 ## Permissions
 ```js
-global.saltrole: {
+saltrole: {
     global.saltrole.*, //All
     global.saltrole.moderator,
     global.saltrole.administrator
