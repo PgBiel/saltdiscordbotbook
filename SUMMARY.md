@@ -15,8 +15,8 @@
 * [Saltrole](saltrole.md)
 
 ## Fun
-* [Intro](methods.md)
-* [Randomization](test.md)
+* [Intro](fun.md)
+* [Randomization](randomization.md)
 * [Feedme](feedme.md)
 * [Calc](calc.md)
 * [Emoji](emoji.md)
