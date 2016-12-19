@@ -10,4 +10,6 @@
 * [Randomization](test.md)
 * [Feedme](feedme.md)
 * [Calc](calc.md)
+* Emoji
+* RIP
 
