@@ -8,9 +8,10 @@
 ## Moderation
 * [Setting up Moderation](setting-up-moderation.md)
 * [Muting ](mute.md)
+* [Warnings](warnings.md)
 
 ## Administration
-* Setting up Salt!
+* [Setting up Salt!](setting-up-salt.md)
 * [Saltrole](saltrole.md)
 
 ## Fun

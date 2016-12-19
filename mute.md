@@ -50,10 +50,12 @@ Unmute is also as simple as Pmute. It's actually the exact same syntax:
 `+unmute @User#1234 reason`
 
 Simple, simple, simple. Simplicity is key here. That's the point of Salt: To ease your lives. ;)
+###Mutetime
+Mutetime, also in category of moderation, is just to get the time left muted for you or someone else. Writing just `+mutetime` will return your own time left, while writing `+mutetime @User#1234` will return the time left muted for said user, if they are muted, that is.
 ##Troubleshooting
-Common trouble that people have at muted is...
+Common trouble that people have at muting is...
 
 1. **Salt doesn't give the SaltMuted role for some reason.**
 For that case, you need to check two things: One if the bot can manage roles, and two if the SaltMuted role is ***UNDER*** Salt's highest role. Believe me or not, but this **IS** a common issue.
 
-2. **Muted people are speaking normally and fluently.** The most common problem that leads to this issue is that people give user permission overwrites at channels. If you're going to give user permission overwrites, **don't** tick the permission _Send Messages_, that makes it bypass SaltMuted always. Another problem is that a role higher than SaltMuted has _Send Messages_ ticked - check for that. And the less common problem here is that they have Administrator permission. So check for those 3 things!
+2. **Muted people are speaking normally and fluently.** The most common problem that leads to this issue is that people give user permission overwrites at channels. If you're going to give user permission overwrites, **don't** tick the permission _Send Messages_, that makes it bypass SaltMuted always. Another problem is that a role higher than SaltMuted has _Send Messages_ ticked - check for that. And the less common problem here is that they have _Administrator_ permission. So check for those 3 things!
