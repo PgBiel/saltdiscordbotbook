@@ -12,4 +12,5 @@
 * [Calc](calc.md)
 * Emoji
 * RIP
+* Encryption
 
