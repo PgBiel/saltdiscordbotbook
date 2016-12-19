@@ -5,6 +5,10 @@
 * [Getting Started](getting-started.md)
 * [Additional Help](additional-help.md)
 
+## Moderation
+
+## Administration
+
 ## Fun
 * [Intro](methods.md)
 * [Randomization](test.md)
@@ -14,5 +18,9 @@
 * [RIP](rip.md)
 * [Encryption](encryption.md)
 
-## Moderation
+## Utility
+
+## Automation
+
+## Salt-Related
 
