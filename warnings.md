@@ -2,13 +2,9 @@
 Warnings are a simple yet useful way of punishing. A light punishment, to get ready for a higher one in case of continuous rule break. See the article ["Setting up Moderation"](./setting-up-moderation.md) to set up warns.
 
 ##Permissions
-**Warn:**
 ```js
-warn = global.warn
-```
-**Clear Warns:**
-```js
-clearwarns = global.clearwarns
+warn: global.warn,
+clearwarns: global.clearwarns
 ```
 ##About
 Warnings are, as I said above, a light punishment, to make the person aware of their rule break. I recommend you set it up with the command [`+setwarns`](./setwarns.md) (See in-depth explanation at ["Setting up Moderation"](./setting-up-moderation.md)), so you can set an automatic punishment for reaching a certain number of warnings.
