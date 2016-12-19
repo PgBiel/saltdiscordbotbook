@@ -7,7 +7,7 @@
 
 ## Moderation
 * [Setting up Moderation](setting-up-moderation.md)
-* [mute\/pmute](mute.md)
+* [Muting ](mute.md)
 
 ## Administration
 * Setting up Salt!
