@@ -2,19 +2,10 @@
 ##Permissions
 ###Mute
 ```js
-mute = global.mute;
-```
-###Pmute
-```js
-pmute = global.pmute;
-```
-###Unmute
-```js
-unmute = global.unmute;
-```
-###Mutetime
-```js
-mutetime = global.mutetime; //Default
+mute: global.mute,
+pmute: global.pmute,
+unmute: global.unmute,
+mutetime: global.mutetime //Default
 ```
 ##About
 Muting is a common task for moderators. Know that guy that always joins the server and keeps spamming like a crazy bones? So. We've got you covered. Muting is one of the things that Salt specializes at, but let's go step-by-step, and also do some troubleshooting at the end.
