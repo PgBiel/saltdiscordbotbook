@@ -1,5 +1,12 @@
 # Encryption
 An intricate private/public key encryption system used to keep your messages safe! Private keys are used to decrypt messages and public keys are used to encrypt them.
+## Permissions
+```js
+setkey: global.setkey,
+getkey: global.getKey,
+encrypt: global.encrypt,
+decrypt: global.decrypt
+``` 
 ## +setkey {key}
 **USABLE IN PM**
 
