@@ -1,7 +1,6 @@
 # Randomization
 
 These commands have some sort of a random number generator, for your random needs!
-
 ## Permissions
 ```js
 coinflip: global.coinflip, //Default
