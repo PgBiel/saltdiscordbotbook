@@ -10,7 +10,7 @@
 * [Randomization](test.md)
 * [Feedme](feedme.md)
 * [Calc](calc.md)
-* Emoji
-* RIP
+* [Emoji](emoji.md)
+* [RIP](rip.md)
 * Encryption
 
