@@ -9,4 +9,5 @@
 * [Intro](methods.md)
 * [Randomization](test.md)
 * [Feedme](feedme.md)
+* [Calc](calc.md)
 
