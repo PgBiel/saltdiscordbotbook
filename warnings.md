@@ -1,5 +1,5 @@
 #Warnings
-Warnings are a simple yet useful way of punishing. A light punishment, to get ready for a higher one in case of continuous rule break. See the article ["Setting up Moderation"](./setting-up-moderation.md) to set up warns.
+Warnings are a simple yet useful way of punishing. A light punishment, to get ready for a higher one in case of continuous rule break. See the article ["Setting up Moderation"](./setting-up-moderation.md#how-to-set-warns) to set up warns.
 
 ##Permissions
 ```js
