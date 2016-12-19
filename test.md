@@ -4,7 +4,7 @@ These commands have some sort of a random number generator, for your random need
 
 ## Permissions
 ```js
-coinflip: global.coinflip
+coinflip: global.coinflip,
 random: global.random
 ``` 
 ## +coinflip
