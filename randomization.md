@@ -10,9 +10,7 @@ The coinflip command is simple, it flips a coin and sends a message containing e
 
 The random command generates a random integer between 2 given integers, inclusively.
 
-```
-Example: "+random 1 10" - Generates a random integer between 1 and 10.
-```
+Example: `+random 1 10` - Generates a random integer between 1 and 10.
 
 
 
