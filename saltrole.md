@@ -13,5 +13,9 @@ Sets a role to be the saltrole of the given type. So far valid types are `modera
 ## Permission Nodes
 The `moderator` role grants the following permission nodes:
 ```js
-
+global.mute,
+global.unmute,
+global.pmute,
+global.warn,
+global.clearwarns
 ```
