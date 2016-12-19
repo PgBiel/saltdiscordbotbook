@@ -12,5 +12,5 @@
 * [Calc](calc.md)
 * [Emoji](emoji.md)
 * [RIP](rip.md)
-* Encryption
+* [Encryption](encryption.md)
 
