@@ -4,8 +4,8 @@ Sets moderator and administrator roles for Salt.
 ```js
 global.saltrole: {
     global.saltrole.*, //All
-    global.saltrole.mod,
-    global.saltrole.admin
+    global.saltrole.moderator,
+    global.saltrole.administrator
 }
 ```
 ## +saltrole {type} {name}
