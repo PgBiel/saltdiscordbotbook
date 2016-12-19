@@ -2,7 +2,7 @@
 A way to get large versions of emoji.
 ## Permissions
 ```js
-emoji: global.emoji
+emoji: global.emoji //Default
 ``` 
 ## +emoji {emoji}
 Sends a large version of an emoji.

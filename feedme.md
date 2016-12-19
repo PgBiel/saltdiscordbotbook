@@ -4,7 +4,7 @@
 
 ## Permissions
 ```js
-feedme: global.feedme
+feedme: global.feedme //Default
 ``` 
 
 ## +feedme

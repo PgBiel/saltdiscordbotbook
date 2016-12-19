@@ -2,7 +2,7 @@
 Generates a RIPme link.
 ## Permissions
 ```js
-rip: global.rip
+rip: global.rip //Default
 ``` 
 ## +rip {text}
 Creates a RIPme link for the specified text.
