@@ -1,9 +1,11 @@
 # Summary
 
-## Overview
+## Preparation
 * [Intro](README.md)
+* [Getting Started](getting-started.md)
+* [Additional Help](additional-help.md)
 
-## Information
-* [Defining Methods](methods.md)
-* [test](test.md)
+## Fun
+* [Intro](methods.md)
+* [Randomization](test.md)
 
