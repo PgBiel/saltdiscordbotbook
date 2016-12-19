@@ -6,8 +6,12 @@
 * [Additional Help](additional-help.md)
 
 ## Moderation
+* [Setting up Moderation](setting-up-moderation.md)
+* [mute\/pmute](mute.md)
 
 ## Administration
+* Setting up Salt!
+* [Saltrole](saltrole.md)
 
 ## Fun
 * [Intro](methods.md)
