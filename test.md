@@ -2,6 +2,11 @@
 
 These commands have some sort of a random number generator, for your random needs!
 
+## Permissions
+```js
+coinflip: global.coinflip
+random: global.random
+``` 
 ## +coinflip
 
 The coinflip command is simple, it flips a coin and sends a message containing either heads or tails.
