@@ -11,7 +11,11 @@ Used to get the public key of a user to encrypt messages.
 
 Example: `+getkey @Aplet123#9551` - Gets Aplet123's public key.
 ## +encrypt [FLAGS] (public key) {text}
-Used to encrypt text. **Note that you must keep the `[](){}` for it to work.** `FLAG` is a comma-separated list of flags, where the possible flags are `KEEP` to keep the message instead of deleting it and `PM` to send the result to PM.
+Used to encrypt text. **Note that you must keep the `[](){}` for it to work.** `FLAG` is a comma-separated list of flags, where the possible flags are `KEEP` to keep the message instead of deleting it and `PM` to send the result to PM. **Note that if public key is kept empty(`()`), it will use your public key.**
 
-## +decrypt [FLAGS] (private key) {text}
-Used to encrypt text. **Note that you must keep the `[](){}` for it to work.** `FLAG` is a comma-separated list of flags, where the possible flags are `KEEP` to keep the message instead of deleting it and `PM` to send the result to PM.
+Example: `+encrypt [PM] () {apple}` - Encrypts `apple` with your public key and sends it to PM.
+
+## +decrypt [private key] {text}
+Used to decrypt text. **Note that you must keep the `[]{}` for it to work and that if public key is kept empty(`()`), it will use your public key.**
+
+Example: `+decrypt [] {ljfjjnl}` - Decrypts `ljfjjnl` with your private key. 
