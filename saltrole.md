@@ -11,12 +11,24 @@ saltrole: {
 ## +saltrole {type} {name}
 Sets a role to be the saltrole of the given type. So far valid types are `moderator` for moderator roles and `administrator` for administrator roles. The name is case insensitive.
 ## Permission Nodes
-Saltroles grant pseudo-permission nodes, however regular permission nodes will overwrite it, so if you have `-global.mute` but you have the `moderator` role, you still cannot use [`+mute`](./mute.md).
-The `moderator` role grants the following pseudo-permission nodes:
+Saltroles grant access to certain commands, however if a permission node rejects access to it, then you may still not use it. For example, if you have `-global.mute` but have the `moderator` role you still cannot use [`+mute`](./mute.md).
+
+The `moderator` role grants access to the following commands:
 ```js
-global.mute,
-global.unmute,
-global.pmute,
-global.warn,
-global.clearwarns
++mute,
++unmute,
++pmute,
++warn,
++clearwarns
+```
+The `administrator` role grants access to the following commands:
+```js
++logs,
++saltrole,
++delsaltrole,
++actionlogs,
++role,
++setwarns,
++manageselfrole,
++prefix
 ```
