@@ -5,6 +5,7 @@
 * [Getting Started](getting-started.md)
 * [Additional Help](additional-help.md)
 * [Permissions](permissions.md)
+* [Disabling Commands](disabling-commands.md)
 
 ## Moderation
 * [Setting up Moderation](setting-up-moderation.md)
@@ -14,6 +15,7 @@
 ## Administration
 * [Setting up Salt!](setting-up-salt.md)
 * [Saltrole](saltrole.md)
+* [+p](p.md)
 
 ## Fun
 * [Intro](fun.md)

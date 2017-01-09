@@ -1,5 +1,5 @@
 #Permissions
-Permissions are an interesting topic, which lets you control the usage of Salt to the max. Disabling commands are covered in the other article.
+Permissions are an interesting topic, which lets you control the usage of Salt to the max. Disabling commands are covered in the [other article](./disabling-commands.md).
 
 ##What are they?
 Let's take a look at the list of permissions (link [here](http://pastebin.com/e5UAqaib)).
@@ -42,7 +42,7 @@ Now after a while, he has calmed down and I want him to be able to do `+kick` ag
 ```
 Done! Now I removed his `global.kick` negation. Now he will be able to use `+kick` as long as he has the permission `Kick Members` (of Discord). Neat!
 
-Other usages for `+p` can be `+p list` (get a link for listing all permission nodes, or you can click [here](http://pastebin.com/e5UAqaib)) and `+p disable`, `+p enable` & `+p clone`, those 3 are about disabling and enabling commands, which will be spoken about in [this other] article.
+Other usages for `+p` can be `+p list` (get a link for listing all permission nodes, or you can click [here](http://pastebin.com/e5UAqaib)) and `+p disable`, `+p enable` & `+p clone`, those 3 are about disabling and enabling commands, which will be spoken about in [this other article](./disabling-commands.md).
 
 **Note:** The `+p` command has permissions by itself too!
 - `global.p.*` -> Grants access to all `+p` actions.
@@ -50,6 +50,8 @@ Other usages for `+p` can be `+p list` (get a link for listing all permission no
 - `global.p.take` -> Grants access to `+p takeuser` and `+p takerole`.
 - `global.p.disable` -> Grants access to `+p disable` and `+p clone`.
 - `global.p.enable` -> Grants access to `+p enable`.
+
+**Note 2:** To view list of Salt Permissions for a role or user, do `+listperms role/user RoleNameOrUserMention` (If using the `user` option, you can put nothing after it to see your own). Not to be confounded with the command `+perms`, to list Discord permissions.
 
 Now let's switch the topic. Permissions. Why do I see `global.` in the start of all permission nodes in there [at the permission list]? Well, because of custom commands. Let me show you.
 
@@ -71,4 +73,4 @@ Then, we give the permission to the `Admin`  role:
 And it's done! See the difference between the `global` and `custom` prefixes? `global` means command implemented by Salt and `custom` means a custom command (user-made).
 ##Troubleshooting
 1. **Their role negates `xx.xx.xx` permission, yet they still have it!** -> Check the permissions for higher roles (if he has any), and also check his user permissions: User permissions **ALWAYS** override role permissions.
-2. **What about `+p disable`, `+p enable` and `+p clone`? I don't see them anywhere in this article.** -> Like I said, there's another article for it (click [here]).
+2. **What about `+p disable`, `+p enable` and `+p clone`? I don't see them anywhere in this article.** -> Like I said, there's another article for it (click [here](./disabling-commands.md)).

@@ -1,0 +1,1 @@
+See [Permissions](./permissions.md) and [Disabling Commands](./disabling-commands.md).
