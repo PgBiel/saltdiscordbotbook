@@ -4,6 +4,7 @@
 * [Intro](README.md)
 * [Getting Started](getting-started.md)
 * [Additional Help](additional-help.md)
+* [Permissions](permissions.md)
 
 ## Moderation
 * [Setting up Moderation](setting-up-moderation.md)
