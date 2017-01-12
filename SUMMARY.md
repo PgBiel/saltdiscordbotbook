@@ -11,6 +11,7 @@
 * [Setting up Moderation](setting-up-moderation.md)
 * [Muting ](mute.md)
 * [Warnings](warnings.md)
+* [Invite Link Filter](invite-link-filter.md)
 
 ## Administration
 * [Setting up Salt!](setting-up-salt.md)
