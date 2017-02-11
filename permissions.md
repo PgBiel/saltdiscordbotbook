@@ -73,4 +73,8 @@ Then, we give the permission to the `Admin`  role:
 And it's done! See the difference between the `global` and `custom` prefixes? `global` means command implemented by Salt and `custom` means a custom command (user-made).
 ##Troubleshooting
 1. **Their role negates `xx.xx.xx` permission, yet they still have it!** -> Check the permissions for higher roles (if he has any), and also check his user permissions: User permissions **ALWAYS** override role permissions.
-2. **What about `+p disable`, `+p enable` and `+p clone`? I don't see them anywhere in this article.** -> Like I said, there's another article for it (click [here](./disabling-commands.md)).
+2. **What about `+p disable`, `+p enable` and `+p clone`? I don't see them anywhere in this article.** -> Like I said, there's another article for it (click [here](./disabling-commands.md)).  
+  
+    
+      
+      
